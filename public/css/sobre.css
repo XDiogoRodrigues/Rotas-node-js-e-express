@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box_tec {
+  display: inline-block;
+  width: 25%;
+  background-color: rgb(182, 181, 181);
+  margin-left: 1em;
+  text-align: center;
+  padding: 1em;
+}
+
+abbr {
+  text-decoration: none;
+}

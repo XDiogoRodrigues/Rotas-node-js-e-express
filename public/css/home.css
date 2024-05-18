@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+li {
+  margin-left: 0.5em;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 0.5em;
+  background-color: rgb(232, 226, 226);
+  border-radius: 7px;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  background-color: rgb(182, 179, 179);
+  color: blue;
+  transition: 1s;
+}
